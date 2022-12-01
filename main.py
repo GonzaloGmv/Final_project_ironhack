@@ -1,9 +1,9 @@
 import pandas as pd
+import sklearn.linear_model as lm
+import sklear.test as test
+import sklear.train as train
+import numpy as np
+import matplotlib.pyplot as plt
 
-#1
 df = pd.read_csv('regression_data.csv')
 print(df.info())
-
-#2
-df.drop(['date'], axis=1, inplace=True)
-print(df.head(10))
