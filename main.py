@@ -1,7 +1,6 @@
 import pandas as pd
 import sklearn.linear_model as lm
-import sklear.test as test
-import sklear.train as train
+import sklearn.train_test_split as tts
 import numpy as np
 import matplotlib.pyplot as plt
 
